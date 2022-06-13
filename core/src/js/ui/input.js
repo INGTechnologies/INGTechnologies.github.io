@@ -5,7 +5,7 @@ import element_utils from './element_utils.js'
 
 export default element_utils.define(
     
-    class extends element_utils.element_base(HTMLDivElement) {
+    class extends element_utils.element_base(HTMLInputElement) {
 
         constructor (option) {
 
@@ -15,6 +15,6 @@ export default element_utils.define(
 
     }, 
 
-    'div'
+    'input'
 
 );
