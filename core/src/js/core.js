@@ -6,8 +6,16 @@ import docs from './docs/docs.js'
 
 export default {
 
-    ui : ui,
+    ui,
 
-    docs : docs
+    docs
 
-}
+};
+
+export {
+
+    ui,
+
+    docs
+
+};

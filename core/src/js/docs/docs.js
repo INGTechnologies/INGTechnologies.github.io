@@ -6,8 +6,16 @@ import renderer from './renderer.js'
 
 export default {
 
-    reader : reader,
+    reader,
 
-    renderer : renderer
+    renderer
 
-}
+};
+
+export {
+
+    reader,
+
+    renderer
+
+};
