@@ -24,6 +24,10 @@ const element_utils = {
     
         element.textContent = '' || element.option.textContent;
     
+        element.className = '' || element.option.class;
+    
+        element.id = '' || element.option.id;
+    
     },
 
     element_base : function (HTMLBase){

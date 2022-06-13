@@ -7,10 +7,20 @@ import input from './input.js'
 
 export default {
 
-    element_utils : element_utils,
+    element_utils,
 
-    div : div,
+    div,
 
-    input : input
+    input
 
-}
+};
+
+export {
+
+    element_utils,
+
+    div,
+
+    input
+
+};
